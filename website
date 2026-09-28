@@ -1,0 +1,1617 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>About Us — PhotoJod | Free Photo Collage Maker</title>
+<meta name="description" content="PhotoJod kya hai, kaise kaam karta hai, aur hamara mission — simple, free aur private photo collage maker.">
+<link rel="icon" type="image/png" href="icon-192.png">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#0b0e1a; --panel:rgba(255,255,255,.045); --border:rgba(255,255,255,.10);
+    --text:#e8eaf6; --muted:#9aa0b8;
+  }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+    background:
+      radial-gradient(1000px 500px at 75% -10%, rgba(124,58,237,.22), transparent 60%),
+      var(--bg);
+    color: var(--text); min-height: 100vh; padding: 30px 18px 60px; line-height: 1.75;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 18px; padding: 32px 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  }
+  h1 {
+    font-size: clamp(24px, 4vw, 32px); margin-bottom: 6px;
+    background: linear-gradient(90deg, #a5b4fc, #f0abfc);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h2 { font-size: 19px; margin: 26px 0 10px; color: #c4b5fd; }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  p, li { color: #c7cbe4; font-size: 15px; margin-bottom: 10px; }
+  ul, ol { padding-left: 24px; margin-bottom: 12px; }
+  b { color: var(--text); }
+  .badge {
+    display: inline-block; padding: 5px 14px; border-radius: 999px; margin-bottom: 16px;
+    background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35);
+    color: #86efac; font-size: 12.5px; font-weight: 600;
+  }
+  .btn {
+    display: inline-block; margin: 18px 0; padding: 12px 26px; border-radius: 12px;
+    font-weight: 800; font-size: 15px; text-decoration: none; color: #fff !important;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    box-shadow: 0 10px 30px rgba(139,92,246,.45);
+  }
+  .btn:hover { filter: brightness(1.12); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  td, th { border: 1px solid var(--border); padding: 9px 12px; font-size: 14px; color: #c7cbe4; text-align: left; }
+  th { color: #c4b5fd; }
+  nav { text-align: center; margin-top: 22px; font-size: 14px; }
+  nav a { color: #a5b4fc; text-decoration: none; margin: 0 8px; }
+  nav a:hover { text-decoration: underline; }
+  .update { color: var(--muted); font-size: 13px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="panel">
+    
+<span class="badge">ℹ️ Hamare baare me</span>
+<h1>About Us — PhotoJod</h1>
+<p><b>PhotoJod</b> ek free online photo collage maker hai — jisse aap 2 se 8 tak photos ko <b>side by side</b>, <b>upar-neeche</b> ya <b>grid layout</b> me jodkar ek sundar image bana sakte ho.</p>
+
+<h2>🎯 Hamara Mission</h2>
+<p>India me lakhs log roz photos ko jodne ke liye mehenge apps download karte hain — jo ya to paani (watermark) lagati hain, ya photos server par upload karke privacy khatam karti hain, ya ads se bhari hoti hain.</p>
+<p>Hamara mission simple hai: <b>ek aisa tool dena jo 100% free ho, 100% private ho, aur bina kisi jhanjhat ke kaam kare</b> — chahe aap mobile use karo ya computer.</p>
+
+<h2>✨ PhotoJod ki khashiyatein</h2>
+<ul>
+  <li><b>100% Private</b> — aapki photos kahin upload NAHI hoti. Sab kuch aapke hi browser me hota hai.</li>
+  <li><b>Full Quality</b> — photo ki original quality kabhi nahi ghatti. PNG 100% lossless hai.</li>
+  <li><b>Crop & Rotate</b> — har photo ko crop karo (1:1, 4:3, 16:9 ratios ke sath) aur rotate karo.</li>
+  <li><b>8 Photos tak</b> — grid collage banao, background color badlo, border/gap set karo.</li>
+  <li><b>Watermark Option</b> — apna naam/brand photo par lagao.</li>
+  <li><b>Bina Internet</b> — ek baar page khul gaya to internet band bhi chalega.</li>
+  <li><b>Bilkul Free</b> — na login, na signup, na hidden charges.</li>
+</ul>
+
+<h2>🛠️ Kaise kaam karta hai?</h2>
+<p>PhotoJod aapke browser ki <b>modern technology (HTML5 Canvas)</b> se bana hai. Jab aap photo choose karte ho, wo sirf aapke device ki memory me load hoti hai. Combining, cropping, sab processing aapke hi device par hoti hai — isliye ye itna fast aur private hai.</p>
+
+<h2>👥 Kis-kis ke liye hai?</h2>
+<ul>
+  <li><b>Families & Couples</b> — yaadein jodne ke liye</li>
+  <li><b>Students</b> — project aur presentation ke liye</li>
+  <li><b>Online Sellers</b> — product ki multiple photos ek image me</li>
+  <li><b>Photographers</b> — before/after aur event collages</li>
+  <li><b>Everyone</b> — WhatsApp/Instagram ke liye mazedaar photos</li>
+</ul>
+
+<h2>🔮 Aage kya aa raha hai?</h2>
+<p>Hum jald hi aur tools laa rahe hain — passport photo maker, image compressor, photo resizer aur watermark tool. Hamara goal hai: <b>India ka sabse aasan photo tools ka ghar banana.</b></p>
+
+<p style="margin-top:20px">💡 Suggestion ya feedback hai? <a href="contact.html" style="color:#a5b4fc">Contact page</a> par message karo!</p>
+<a class="btn" href="index.html">🖼️ Ab Collage Banao — Free</a>
+
+    <nav>
+      <a href="index.html">🏠 Home</a> · <a href="about.html">About</a> ·
+      <a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy Policy</a> ·
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Contact Us — PhotoJod</title>
+<meta name="description" content="PhotoJod team se contact karo — suggestions, business inquiries, ya koi bhi sawaal.">
+<link rel="icon" type="image/png" href="icon-192.png">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#0b0e1a; --panel:rgba(255,255,255,.045); --border:rgba(255,255,255,.10);
+    --text:#e8eaf6; --muted:#9aa0b8;
+  }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+    background:
+      radial-gradient(1000px 500px at 75% -10%, rgba(124,58,237,.22), transparent 60%),
+      var(--bg);
+    color: var(--text); min-height: 100vh; padding: 30px 18px 60px; line-height: 1.75;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 18px; padding: 32px 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  }
+  h1 {
+    font-size: clamp(24px, 4vw, 32px); margin-bottom: 6px;
+    background: linear-gradient(90deg, #a5b4fc, #f0abfc);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h2 { font-size: 19px; margin: 26px 0 10px; color: #c4b5fd; }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  p, li { color: #c7cbe4; font-size: 15px; margin-bottom: 10px; }
+  ul, ol { padding-left: 24px; margin-bottom: 12px; }
+  b { color: var(--text); }
+  .badge {
+    display: inline-block; padding: 5px 14px; border-radius: 999px; margin-bottom: 16px;
+    background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35);
+    color: #86efac; font-size: 12.5px; font-weight: 600;
+  }
+  .btn {
+    display: inline-block; margin: 18px 0; padding: 12px 26px; border-radius: 12px;
+    font-weight: 800; font-size: 15px; text-decoration: none; color: #fff !important;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    box-shadow: 0 10px 30px rgba(139,92,246,.45);
+  }
+  .btn:hover { filter: brightness(1.12); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  td, th { border: 1px solid var(--border); padding: 9px 12px; font-size: 14px; color: #c7cbe4; text-align: left; }
+  th { color: #c4b5fd; }
+  nav { text-align: center; margin-top: 22px; font-size: 14px; }
+  nav a { color: #a5b4fc; text-decoration: none; margin: 0 8px; }
+  nav a:hover { text-decoration: underline; }
+  .update { color: var(--muted); font-size: 13px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="panel">
+    
+<span class="badge">📮 Baat karo</span>
+<h1>Contact Us</h1>
+<p>Koi sawaal, suggestion, ya business baat? Hum sunne ke liye hain! 🙌</p>
+
+<h2>💬 Sabse fast tarika — WhatsApp</h2>
+<p>📲 <b>WhatsApp:</b> +91-XXXXXXXXXX<br>
+<span style="color:var(--muted);font-size:13.5px">(Yahan apna number daalo)</span></p>
+<p>Timing: Subah 10 baje se raat 8 baje tak</p>
+
+<h2>📧 Email</h2>
+<p>✉️ <b>email:</b> yourname@example.com<br>
+<span style="color:var(--muted);font-size:13.5px">(Yahan apna email daalo)</span></p>
+
+<h2>🤝 Business ke liye</h2>
+<p>Agar aap:</p>
+<ul>
+  <li><b>Photo studio / photographer</b> ho aur regular collage service chahiye</li>
+  <li><b>School / coaching</b> ho — events ke liye bulk collages</li>
+  <li><b>Online seller</b> ho — product photos combine karwani hain</li>
+  <li><b>Advertising / partnership</b> me interest hai</li>
+</ul>
+<p>...to seedha WhatsApp karo — hum <b>monthly deals</b> aur <b>bulk pricing</b> dete hain! 📸</p>
+
+<h2>💡 Feedback & Bug Reports</h2>
+<p>Tool me koi problem aayi? Koi naya feature chahiye (jaise text add karna, frames, stickers)? Batana — sabse zyada request aane wala feature sabse pehle banega! 🚀</p>
+
+<h2>⏰ Reply Time</h2>
+<table>
+  <tr><th>Type</th><th>Response time</th></tr>
+  <tr><td>Collage order</td><td>1 ghante me delivery ⚡</td></tr>
+  <tr><td>Sawaal/support</td><td>24 ghante me</td></tr>
+  <tr><td>Business inquiry</td><td>1-2 din me</td></tr>
+</table>
+
+<a class="btn" href="index.html">🖼️ Wapas Collage Banao</a>
+
+    <nav>
+      <a href="index.html">🏠 Home</a> · <a href="about.html">About</a> ·
+      <a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy Policy</a> ·
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>FAQ — PhotoJod | Sawaal-Jawaab</title>
+<meta name="description" content="PhotoJod ke baare me aksar pooche jaane wale sawaalon ke jawaab — privacy, quality, mobile support aur zyada.">
+<link rel="icon" type="image/png" href="icon-192.png">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#0b0e1a; --panel:rgba(255,255,255,.045); --border:rgba(255,255,255,.10);
+    --text:#e8eaf6; --muted:#9aa0b8;
+  }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+    background:
+      radial-gradient(1000px 500px at 75% -10%, rgba(124,58,237,.22), transparent 60%),
+      var(--bg);
+    color: var(--text); min-height: 100vh; padding: 30px 18px 60px; line-height: 1.75;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 18px; padding: 32px 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  }
+  h1 {
+    font-size: clamp(24px, 4vw, 32px); margin-bottom: 6px;
+    background: linear-gradient(90deg, #a5b4fc, #f0abfc);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h2 { font-size: 19px; margin: 26px 0 10px; color: #c4b5fd; }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  p, li { color: #c7cbe4; font-size: 15px; margin-bottom: 10px; }
+  ul, ol { padding-left: 24px; margin-bottom: 12px; }
+  b { color: var(--text); }
+  .badge {
+    display: inline-block; padding: 5px 14px; border-radius: 999px; margin-bottom: 16px;
+    background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35);
+    color: #86efac; font-size: 12.5px; font-weight: 600;
+  }
+  .btn {
+    display: inline-block; margin: 18px 0; padding: 12px 26px; border-radius: 12px;
+    font-weight: 800; font-size: 15px; text-decoration: none; color: #fff !important;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    box-shadow: 0 10px 30px rgba(139,92,246,.45);
+  }
+  .btn:hover { filter: brightness(1.12); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  td, th { border: 1px solid var(--border); padding: 9px 12px; font-size: 14px; color: #c7cbe4; text-align: left; }
+  th { color: #c4b5fd; }
+  nav { text-align: center; margin-top: 22px; font-size: 14px; }
+  nav a { color: #a5b4fc; text-decoration: none; margin: 0 8px; }
+  nav a:hover { text-decoration: underline; }
+  .update { color: var(--muted); font-size: 13px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="panel">
+    
+<span class="badge">❓ Sawaal-Jawaab</span>
+<h1>Frequently Asked Questions (FAQ)</h1>
+<p>Yahan PhotoJod ke baare me sabse common sawaalon ke jawaab hain. Agar aapka sawaal yahan nahi hai to <a href="contact.html" style="color:#a5b4fc">Contact page</a> par message karo.</p>
+
+<h2>🔒 Privacy ke sawaal</h2>
+
+<h3>Kya meri photos kahin upload hoti hain?</h3>
+<p><b>Nahi!</b> Aapki photos kabhi kahin nahi jati. Sab processing aapke hi browser me hoti hai — na koi server, na koi cloud. Chahe aap internet band kar do, tab bhi tool kaam karega.</p>
+
+<h3>Kya tool mujhe kaunsa bata sakta hai?</h3>
+<p>Aapki photos to device par hi rehti hain, par tool aapki kuch settings (jaise business banner) aapke browser ke localStorage me save karta hai — ye sirf aapke device par rehta hai, humein kabhi nahi milta.</p>
+
+<h2>📸 Features ke sawaal</h2>
+
+<h3>Kitni photos jodh sakte hain?</h3>
+<p>Ek collage me <b>8 photos tak</b> jodh sakte ho. 2 photos ke liye classic side-by-side, zyada photos ke liye grid layout best hai.</p>
+
+<h3>Kya photo quality kam hoti hai?</h3>
+<p><b>Nahi.</b> PhotoJod full resolution me kaam karta hai — aapki photo jitni badi hai, output utni hi banegi (80 megapixel tak support). PNG format 100% lossless hai. Quality report me har photo ka "✓ 1:1 original pixels" status dekh sakte ho.</p>
+
+<h3>Kya mobile phone par chalega?</h3>
+<p><b>Haan!</b> Android, iPhone, tablet — sab par chalta hai. Touch se crop bhi kar sakte ho.</p>
+
+<h3>Kaunse photo formats support hain?</h3>
+<p>JPG, PNG, WebP, GIF, BMP — browser jo bhi support karta hai. Download PNG ya JPG me hota hai.</p>
+
+<h3>Crop kaise hota hai? Ratio kaise set karu?</h3>
+<p>Photo slot par ✂️ button dabao. Box drag karke crop karo, ya 1:1 (WhatsApp DP), 4:3, 16:9 jaise ready ratios chuno. ⟲⟳ se photo ghuma bhi sakte ho.</p>
+
+<h3>Watermark kaise lagau?</h3>
+<p>Setting me "Watermark lagao" checkbox ON karo, apna naam likho aur position chuno. Ye photographers aur service walon ke liye best hai.</p>
+
+<h2>💾 Download ke sawaal</h2>
+
+<h3>PNG ya JPG — kya chunu?</h3>
+<table>
+  <tr><th>Format</th><th>Kab use karein</th></tr>
+  <tr><td><b>PNG</b></td><td>Best quality chahiye, printing karni hai, ya transparent background chahiye</td></tr>
+  <tr><td><b>JPG</b></td><td>File chhoti chahiye — WhatsApp/Instagram ke liye (quality slider 95%+ rakho)</td></tr>
+</table>
+
+<h3>Download button kaam nahi kar raha, kya karu?</h3>
+<p>Agar aap kisi app ke andar wale preview me ho, to <b>is page ko apne device par save karke seedha Chrome/Edge me kholo</b> — wahan download 100% kaam karega. Ya image par right-click → "Save image as" karo.</p>
+
+<h2>💰 Business ke sawaal</h2>
+
+<h3>Kya main is tool se business kar sakta hoon?</h3>
+<p>Bilkul! Collage design service shuru karo — customer ki photos lo, PhotoJod se banao (5 min me), watermark preview bhejo, payment lo, final file do. <b>₹49–299 per collage</b> easily charge kar sakte ho.</p>
+
+<h3>Kya ye sach me free hai?</h3>
+<p><b>Haan, 100% free.</b> Na login, na signup, na hidden charges, na photo limit.</p>
+
+<a class="btn" href="index.html">🖼️ Ab Try Karo — Free</a>
+
+    <nav>
+      <a href="index.html">🏠 Home</a> · <a href="about.html">About</a> ·
+      <a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy Policy</a> ·
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>PhotoJod — Side by Side Photo Collage Maker Online Free | 2-8 Photos Jode</title>
+<link rel="icon" type="image/png" href="icon-192.png">
+<meta name="description" content="Do ya zyada photos ko side by side / grid me jodkar ek image banaye — 100% free, offline aur private. Photos kahin upload nahi hoti. Crop, rotate, PNG/JPG download.">
+<meta name="keywords" content="side by side photo, photo jod, photo collage maker, do photo ko jode, before after photo, photo combiner, collage maker online free">
+<meta property="og:title" content="Side by Side Photo Maker — Free, Private, Offline">
+<meta property="og:description" content="2–8 photos ko jodkar ek image banao — crop, grid, PNG/JPG. 100% private: photos kahin upload nahi hoti.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#0b0e1a; --panel:rgba(255,255,255,.045); --panel2:rgba(255,255,255,.03);
+    --border:rgba(255,255,255,.10); --text:#e8eaf6; --muted:#9aa0b8;
+    --acc1:#6366f1; --acc2:#a855f7;
+  }
+  html, body { height: 100%; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+    background:
+      radial-gradient(1100px 600px at 75% -10%, rgba(124,58,237,.28), transparent 60%),
+      radial-gradient(900px 500px at 5% 110%, rgba(59,130,246,.20), transparent 60%),
+      var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 30px 18px 60px;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+
+  header { text-align: center; margin-bottom: 28px; }
+  h1 {
+    font-size: clamp(26px, 4.5vw, 40px); letter-spacing: .5px;
+    background: linear-gradient(90deg, #a5b4fc, #e9d5ff, #f0abfc);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 12px; padding: 7px 16px; border-radius: 999px;
+    background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35);
+    color: #86efac; font-size: 13.5px; font-weight: 600;
+  }
+  header p.sub { margin-top: 12px; color: var(--muted); font-size: 15px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 920px) { .grid { grid-template-columns: 1fr; } }
+
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 18px; padding: 22px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+    backdrop-filter: blur(8px);
+  }
+  .panel-head { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+  .panel-head h2 { font-size: 17px; font-weight: 700; }
+  .step {
+    width: 26px; height: 26px; border-radius: 50%; flex: none;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 800; color: #fff;
+    background: linear-gradient(135deg, var(--acc1), var(--acc2));
+    box-shadow: 0 4px 14px rgba(139,92,246,.45);
+  }
+  .spacer { flex: 1; }
+
+  /* ---------- Upload slots ---------- */
+  .slots { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 12px; }
+  .slot {
+    position: relative; min-height: 185px; border-radius: 14px; cursor: pointer;
+    border: 2px dashed rgba(255,255,255,.18); background: var(--panel2);
+    display: flex; align-items: center; justify-content: center;
+    transition: border-color .2s, background .2s, transform .15s;
+    overflow: hidden; text-align: center; padding: 12px;
+  }
+  .slot:hover { border-color: rgba(139,92,246,.7); }
+  .slot.drag { border-color: #a78bfa; background: rgba(139,92,246,.12); transform: scale(1.01); }
+  .slot .empty .ic { font-size: 32px; margin-bottom: 8px; }
+  .slot .empty .nm { font-weight: 700; font-size: 14.5px; }
+  .slot .empty .hint { color: var(--muted); font-size: 12px; margin-top: 5px; line-height: 1.45; }
+  .slot .filled { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 100%; }
+  .slot .thumb {
+    max-width: 100%; max-height: 100px; border-radius: 9px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.4); object-fit: contain;
+  }
+  .slot .fname {
+    font-size: 11.5px; color: var(--muted); max-width: 95%;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .slot .acts { display: flex; gap: 8px; }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    font: inherit; font-size: 12.5px; font-weight: 600; color: var(--text);
+    background: rgba(255,255,255,.08); border: 1px solid var(--border);
+    padding: 6px 11px; border-radius: 9px; cursor: pointer;
+    transition: background .15s, transform .1s, opacity .2s;
+  }
+  .btn:hover:not(:disabled) { background: rgba(255,255,255,.15); }
+  .btn:active:not(:disabled) { transform: scale(.96); }
+  .btn:disabled { opacity: .35; cursor: not-allowed; }
+  .btn.acc {
+    background: linear-gradient(135deg, var(--acc1), var(--acc2));
+    border: none; color: #fff;
+  }
+  .btn.acc:hover:not(:disabled) { filter: brightness(1.15); background: linear-gradient(135deg, var(--acc1), var(--acc2)); }
+  .ghost {
+    font: inherit; font-size: 13px; font-weight: 600; color: var(--muted);
+    background: transparent; border: 1px dashed var(--border);
+    padding: 8px 14px; border-radius: 10px; cursor: pointer; margin-top: 16px; width: 100%;
+  }
+  .ghost:hover { color: var(--text); background: rgba(255,255,255,.05); }
+
+  /* ---------- Controls ---------- */
+  .controls { margin-top: 24px; }
+  .control { margin-bottom: 16px; }
+  .lab { display: block; font-size: 13.5px; font-weight: 600; color: #c7cbe4; margin-bottom: 8px; }
+  .lab b { color: #c4b5fd; }
+
+  .seg { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .seg3 { grid-template-columns: repeat(3, 1fr); }
+  .seg label { cursor: pointer; }
+  .seg input { display: none; }
+  .seg span {
+    display: block; text-align: center; padding: 10px 6px; border-radius: 11px;
+    font-size: 13px; font-weight: 600; color: var(--muted);
+    background: var(--panel2); border: 1px solid var(--border);
+    transition: all .15s;
+  }
+  .seg input:checked + span {
+    color: #fff; border-color: transparent;
+    background: linear-gradient(135deg, var(--acc1), var(--acc2));
+    box-shadow: 0 6px 18px rgba(139,92,246,.4);
+  }
+
+  input[type="range"] { width: 100%; accent-color: #8b5cf6; cursor: pointer; }
+  input[type="checkbox"] { accent-color: #8b5cf6; width: 16px; height: 16px; cursor: pointer; }
+  .checks label {
+    display: flex; align-items: center; gap: 9px; font-size: 13px;
+    color: #c7cbe4; cursor: pointer; padding: 6px 0; line-height: 1.5;
+  }
+
+  .bgrow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  input[type="color"] {
+    width: 46px; height: 36px; border: 1px solid var(--border);
+    border-radius: 9px; background: var(--panel2); cursor: pointer; padding: 3px;
+  }
+  .sw {
+    width: 30px; height: 30px; border-radius: 8px; cursor: pointer;
+    border: 2px solid rgba(255,255,255,.25); transition: transform .12s;
+  }
+  .sw:hover { transform: scale(1.12); }
+
+  /* ---------- Business banner (apna ad) ---------- */
+  .promo {
+    display: none; margin: 0 0 24px; padding: 12px 16px; border-radius: 14px;
+    background: linear-gradient(90deg, rgba(34,197,94,.14), rgba(59,130,246,.14));
+    border: 1px solid rgba(34,197,94,.4);
+    align-items: center; gap: 14px; flex-wrap: wrap; justify-content: center;
+    font-size: 14.5px; text-align: center;
+  }
+  .promo.on { display: flex; }
+  .promo b { color: #86efac; }
+  .promo a.wabtn {
+    background: #25d366; color: #062b16; font-weight: 800; text-decoration: none;
+    padding: 8px 16px; border-radius: 999px; font-size: 13.5px;
+    box-shadow: 0 6px 18px rgba(37,211,102,.35);
+  }
+  .promo a.wabtn:hover { filter: brightness(1.1); }
+  .promo .px {
+    background: none; border: none; color: var(--muted); cursor: pointer;
+    font-size: 16px; padding: 2px 6px; line-height: 1;
+  }
+  .promo .px:hover { color: var(--text); }
+
+  input[type="text"] {
+    width: 100%; font: inherit; font-size: 13.5px; color: var(--text);
+    background: var(--panel2); border: 1px solid var(--border);
+    border-radius: 10px; padding: 9px 12px; outline: none;
+  }
+  input[type="text"]:focus { border-color: #8b5cf6; }
+
+  /* ---------- Preview ---------- */
+  .preview {
+    min-height: 240px; border-radius: 14px; border: 1px solid var(--border);
+    background: var(--panel2); display: flex; align-items: center; justify-content: center;
+    padding: 14px; margin-bottom: 14px;
+  }
+  .preview .noimg { color: var(--muted); text-align: center; font-size: 14.5px; line-height: 1.7; padding: 30px 10px; }
+  .preview .noimg .ic { font-size: 40px; display: block; margin-bottom: 10px; }
+  canvas {
+    max-width: 100%; height: auto; border-radius: 10px;
+    box-shadow: 0 12px 40px rgba(0,0,0,.5);
+    background-image: conic-gradient(#262b42 90deg, #1e2236 90deg 180deg, #262b42 180deg 270deg, #1e2236 270deg);
+    background-size: 20px 20px;
+  }
+  .out-info { text-align: center; color: var(--muted); font-size: 12.5px; margin-bottom: 14px; min-height: 18px; white-space: pre-line; line-height: 1.55; }
+  .big {
+    font: inherit; width: 100%; padding: 15px; border: none; border-radius: 13px;
+    font-size: 16.5px; font-weight: 800; color: #fff; cursor: pointer;
+    background: linear-gradient(135deg, var(--acc1), var(--acc2));
+    box-shadow: 0 10px 30px rgba(139,92,246,.45);
+    transition: transform .12s, box-shadow .12s, opacity .2s;
+  }
+  .big:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(139,92,246,.6); }
+  .big:active:not(:disabled) { transform: scale(.98); }
+  .big:disabled { opacity: .35; cursor: not-allowed; box-shadow: none; }
+  .tip { margin-top: 12px; font-size: 12.5px; color: var(--muted); text-align: center; line-height: 1.6; }
+
+  footer { margin-top: 30px; text-align: center; color: var(--muted); font-size: 12.5px; }
+
+  /* ---------- Download help modal ---------- */
+  .ov {
+    position: fixed; inset: 0; z-index: 50;
+    background: rgba(5,7,15,.78); backdrop-filter: blur(4px);
+    display: flex; align-items: center; justify-content: center; padding: 18px;
+  }
+  .ov[hidden] { display: none; }
+  .mbox {
+    background: #141830; border: 1px solid var(--border); border-radius: 16px;
+    max-width: 560px; width: 100%; max-height: 90vh; overflow: auto;
+    padding: 22px; text-align: center; box-shadow: 0 30px 80px rgba(0,0,0,.6);
+  }
+  .mbox h3 { font-size: 18px; margin-bottom: 10px; }
+  .mbox p { color: var(--muted); font-size: 13.5px; line-height: 1.65; margin-bottom: 14px; }
+  .mbox p b { color: var(--text); }
+  .mbox img {
+    max-width: 100%; max-height: 260px; border-radius: 10px; margin-bottom: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.5); background: #fff;
+  }
+  .mbtns { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .mbtns .btn { font-size: 13.5px; padding: 10px 14px; border-radius: 10px; }
+  .mbtns .pri {
+    background: linear-gradient(135deg, var(--acc1), var(--acc2));
+    border: none; color: #fff; font-weight: 700;
+  }
+
+  /* ---------- Crop modal ---------- */
+  .crop-sub { margin-top: -6px; }
+  .ratioRow { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-bottom: 14px; align-items: center; }
+  .rbtn.active { background: linear-gradient(135deg, var(--acc1), var(--acc2)); border-color: transparent; color: #fff; }
+  .crop-stage { display: flex; justify-content: center; margin-bottom: 16px; }
+  #cWrap { position: relative; line-height: 0; touch-action: none; user-select: none; -webkit-user-select: none; max-width: 100%; }
+  #cImg { display: block; max-width: 100%; border-radius: 8px; }
+  #cBox {
+    position: absolute; border: 2px solid #fff; cursor: move;
+    box-shadow: 0 0 0 9999px rgba(5,7,15,.72);
+  }
+  .hd { position: absolute; width: 15px; height: 15px; background: #fff; border: 2px solid #8b5cf6; border-radius: 4px; z-index: 2; }
+  .hd-nw { top: -9px; left: -9px; cursor: nwse-resize; }
+  .hd-n  { top: -9px; left: 50%; margin-left: -9px; cursor: ns-resize; }
+  .hd-ne { top: -9px; right: -9px; cursor: nesw-resize; }
+  .hd-w  { top: 50%; margin-top: -9px; left: -9px; cursor: ew-resize; }
+  .hd-e  { top: 50%; margin-top: -9px; right: -9px; cursor: ew-resize; }
+  .hd-sw { bottom: -9px; left: -9px; cursor: nesw-resize; }
+  .hd-s  { bottom: -9px; left: 50%; margin-left: -9px; cursor: ns-resize; }
+  .hd-se { bottom: -9px; right: -9px; cursor: nwse-resize; }
+  #cDims {
+    position: absolute; right: 6px; bottom: 6px; z-index: 2;
+    background: rgba(0,0,0,.7); color: #fff; font-size: 11.5px;
+    padding: 2px 8px; border-radius: 6px; pointer-events: none; line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🖼️ PhotoJod</h1>
+    <div class="badge">🔒 100% Offline — aapki photo kahin upload nahi hoti, sab kuch aapke device par hi hota hai</div>
+    <p class="sub">2 se 8 tak photos choose karo → layout &amp; setting adjust karo → ek combined image download karo.</p>
+  </header>
+
+  <!-- Business banner (apna ad) -->
+  <div class="promo" id="promo">
+    <span id="promoTxt"></span>
+    <a class="wabtn" id="promoLink" href="#" target="_blank" rel="noopener">💬 WhatsApp karo</a>
+    <button class="px" id="promoX" title="Banner band karo">✕</button>
+  </div>
+
+  <main class="grid">
+
+    <!-- LEFT: uploads + settings -->
+    <section class="panel">
+      <div class="panel-head">
+        <span class="step">1</span><h2>Photos choose karo</h2>
+        <span class="spacer"></span>
+        <button class="btn" id="swapBtn" title="Photo 1 aur 2 ki jagah badlo">⇄ Swap</button>
+        <button class="btn acc" id="addBtn" title="Naya photo slot jodo">＋ Photo jodo</button>
+      </div>
+      <div class="slots" id="slots"></div>
+
+      <div class="controls">
+        <div class="panel-head" style="margin-top:8px">
+          <span class="step">2</span><h2>Setting</h2>
+        </div>
+
+        <div class="control">
+          <span class="lab">Layout</span>
+          <div class="seg seg3">
+            <label><input type="radio" name="layout" value="h" checked><span>↔ Side by Side</span></label>
+            <label><input type="radio" name="layout" value="v"><span>↕ Upar–Neeche</span></label>
+            <label><input type="radio" name="layout" value="g"><span>▦ Grid</span></label>
+          </div>
+        </div>
+
+        <div class="control">
+          <label class="lab" for="gap">Gap (photos ke beech): <b id="gapVal">12 px</b></label>
+          <input type="range" id="gap" min="0" max="120" value="12">
+        </div>
+
+        <div class="control">
+          <label class="lab" for="pad">Border / Padding (charo taraf): <b id="padVal">0 px</b></label>
+          <input type="range" id="pad" min="0" max="120" value="0">
+        </div>
+
+        <div class="control checks">
+          <label><input type="checkbox" id="equal" checked> Barabar size — sabse badi photo 1:1 rehti hai, baaki usko match karte hain</label>
+          <label><input type="checkbox" id="transparent"> Transparent background (sirf PNG me)</label>
+        </div>
+
+        <div class="control">
+          <span class="lab">Background color</span>
+          <div class="bgrow">
+            <input type="color" id="bg" value="#ffffff">
+            <button class="sw" style="background:#ffffff" data-bg="#ffffff" title="White"></button>
+            <button class="sw" style="background:#000000" data-bg="#000000" title="Black"></button>
+            <button class="sw" style="background:#f1f5f9" data-bg="#f1f5f9" title="Light gray"></button>
+            <button class="sw" style="background:#0ea5e9" data-bg="#0ea5e9" title="Blue"></button>
+            <button class="sw" style="background:#f43f5e" data-bg="#f43f5e" title="Red"></button>
+            <button class="sw" style="background:#22c55e" data-bg="#22c55e" title="Green"></button>
+          </div>
+        </div>
+
+        <div class="control">
+          <label class="lab" style="display:flex;align-items:center;gap:9px;cursor:pointer"><input type="checkbox" id="wmOn"> Watermark lagao — payment se pehle preview protect karo</label>
+          <div id="wmRow" hidden style="margin-top:10px">
+            <input type="text" id="wmText" placeholder="© Aapka naam ya brand" maxlength="60">
+            <div class="seg seg3" style="margin-top:8px">
+              <label><input type="radio" name="wmpos" value="bl" checked><span>Neeche-left</span></label>
+              <label><input type="radio" name="wmpos" value="br"><span>Neeche-right</span></label>
+              <label><input type="radio" name="wmpos" value="center"><span>Center bada</span></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="control">
+          <label class="lab" for="q">JPG Quality: <b id="qVal">95%</b> <span style="color:var(--muted);font-weight:400">(sirf JPG ke liye)</span></label>
+          <input type="range" id="q" min="50" max="100" value="95">
+        </div>
+
+        <div class="control">
+          <span class="lab">Download format</span>
+          <div class="seg">
+            <label><input type="radio" name="fmt" value="png" checked><span>PNG (100% lossless)</span></label>
+            <label><input type="radio" name="fmt" value="jpg"><span>JPG (chhoti file)</span></label>
+          </div>
+        </div>
+
+        <div class="control">
+          <label class="lab" style="display:flex;align-items:center;gap:9px;cursor:pointer"><input type="checkbox" id="promoOn"> 📢 Business banner dikhao (apna ad + WhatsApp order button)</label>
+          <div id="promoRow" hidden style="margin-top:10px">
+            <input type="text" id="promoText" placeholder="Banner text — jaise: 📸 Collage service — sirf ₹49 se" maxlength="100">
+            <input type="text" id="promoPhone" placeholder="WhatsApp number (91XXXXXXXXXX)" maxlength="15" style="margin-top:8px">
+          </div>
+        </div>
+
+        <button class="ghost" id="clearAll">🧹 Sab clear karo</button>
+      </div>
+    </section>
+
+    <!-- RIGHT: preview + download -->
+    <section class="panel">
+      <div class="panel-head">
+        <span class="step">3</span><h2>Preview &amp; Download</h2>
+      </div>
+
+      <div class="preview" id="previewBox">
+        <div class="noimg" id="noImg">
+          <span class="ic">👆</span>
+          Pehle ek ya zyada photo upload karo.<br>
+          Preview yahan live dikhega.
+        </div>
+        <canvas id="out" hidden></canvas>
+      </div>
+
+      <div class="out-info" id="outInfo"></div>
+
+      <button class="big" id="downloadBtn" disabled>⬇️&nbsp; Download karo</button>
+      <p class="tip">💡 Tip: Grid mode me columns auto set hote hain (4 tak → 2 column, 5+ → 3 column).<br>
+      Agar yahan (preview me) download na ho, to ye <b>HTML file apne device par save karke</b> seedha browser me kholo — wahan download 100% kaam karega.</p>
+    </section>
+
+  </main>
+
+  <footer>
+      <p>PhotoJod · 100% Offline · Aapki photos 100% private rehti hain 🔒</p>
+      <p style="margin-top:8px"><a href="index.html" style="color:#a5b4fc">Home</a> ·
+      <a href="about.html" style="color:#a5b4fc">About</a> ·
+      <a href="faq.html" style="color:#a5b4fc">FAQ</a> ·
+      <a href="privacy.html" style="color:#a5b4fc">Privacy Policy</a> ·
+      <a href="contact.html" style="color:#a5b4fc">Contact</a></p>
+    </footer>
+</div>
+
+<!-- Download help popup -->
+<div class="ov" id="dlHelp" hidden>
+  <div class="mbox">
+    <h3>📥 Download block hua? Ye karo:</h3>
+    <p>Agar aap ye app kisi <b>app ke andar wale preview panel</b> me chala rahe ho, to browser security ki wajah se download block ho jata hai.<br><br>
+    <b>✅ Pakka tarika:</b> Is <b>side-by-side-photo.html</b> file ko apne device par save karo → phir us par double-click karke Chrome/Edge me kholo → wahan Download button <b>100% kaam karega</b>.</p>
+    <img id="dlImg" alt="Result preview">
+    <p>Ya phir upar image par <b>right-click → "Save image as"</b> karo<br>(mobile par long-press karke "Download image" chuno).</p>
+    <div class="mbtns">
+      <button type="button" class="btn pri" id="dlRetry">⬇️ Dobara download try karo</button>
+      <button type="button" class="btn" id="dlTab">🗞️ Naye tab me kholo</button>
+      <button type="button" class="btn" id="dlClose">Band karo</button>
+    </div>
+  </div>
+</div>
+
+<!-- Crop popup -->
+<div class="ov" id="cropOv" hidden>
+  <div class="mbox" style="max-width:860px">
+    <h3>✂️ Photo crop karo</h3>
+    <p class="crop-sub">Box ko drag karo · kono/corner se size badlo · ratio chuno</p>
+    <div class="ratioRow">
+      <button type="button" class="btn rbtn active" data-r="">Free</button>
+      <button type="button" class="btn rbtn" data-r="1">1:1</button>
+      <button type="button" class="btn rbtn" data-r="4/3">4:3</button>
+      <button type="button" class="btn rbtn" data-r="3/4">3:4</button>
+      <button type="button" class="btn rbtn" data-r="16/9">16:9</button>
+      <button type="button" class="btn rbtn" data-r="9/16">9:16</button>
+      <span class="spacer"></span>
+      <button type="button" class="btn" id="rotL" title="Left ghumao">⟲ Ghumao</button>
+      <button type="button" class="btn" id="rotR" title="Right ghumao">⟳ Ghumao</button>
+    </div>
+    <div class="crop-stage">
+      <div id="cWrap">
+        <canvas id="cImg"></canvas>
+        <div id="cBox">
+          <div class="hd hd-nw" data-h="nw"></div>
+          <div class="hd hd-n" data-h="n"></div>
+          <div class="hd hd-ne" data-h="ne"></div>
+          <div class="hd hd-w" data-h="w"></div>
+          <div class="hd hd-e" data-h="e"></div>
+          <div class="hd hd-sw" data-h="sw"></div>
+          <div class="hd hd-s" data-h="s"></div>
+          <div class="hd hd-se" data-h="se"></div>
+          <div id="cDims"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mbtns">
+      <button type="button" class="btn" id="cropReset">↺ Reset</button>
+      <button type="button" class="btn" id="cropCancel">✕ Cancel</button>
+      <button type="button" class="btn pri" id="cropApply">✓ Crop apply karo</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var MAX_SLOTS = 8;
+  var SLOTS = [];
+
+  var $ = function (id) { return document.getElementById(id); };
+  var canvas = $('out'), ctx = canvas.getContext('2d');
+  var noImg = $('noImg'), outInfo = $('outInfo'), downloadBtn = $('downloadBtn');
+  var slotsEl = $('slots'), addBtn = $('addBtn');
+
+  /* ---------- Build upload slots (dynamic) ---------- */
+  function slotName(i) { return 'Photo ' + (i + 1); }
+
+  function addSlot() {
+    if (SLOTS.length >= MAX_SLOTS) {
+      alert('Max ' + MAX_SLOTS + ' photos tak support hai.');
+      return false;
+    }
+    var i = SLOTS.length;
+    var s = { name: slotName(i), img: null, url: null, fname: '', crop: null };
+
+    var d = document.createElement('div');
+    d.className = 'slot';
+    d.innerHTML =
+      '<input type="file" accept="image/*" class="file" hidden>' +
+      '<div class="empty">' +
+        '<div class="ic">🖼️</div>' +
+        '<div class="nm">' + s.name + '</div>' +
+        '<div class="hint">Click karo ya yahan<br>drag &amp; drop karo</div>' +
+      '</div>' +
+      '<div class="filled" hidden>' +
+        '<img class="thumb" alt="">' +
+        '<div class="fname"></div>' +
+        '<div class="fname fd"></div>' +
+        '<div class="acts">' +
+          '<button type="button" class="btn cp" title="Crop karo">✂️</button>' +
+          '<button type="button" class="btn ch" title="Badlo">🔄</button>' +
+          '<button type="button" class="btn rm" title="Hatao">🗑️</button>' +
+        '</div>' +
+      '</div>';
+    slotsEl.appendChild(d);
+
+    var input  = d.querySelector('.file');
+    var empty  = d.querySelector('.empty');
+    var filled = d.querySelector('.filled');
+    var thumb  = d.querySelector('.thumb');
+    var fname  = d.querySelector('.fname');
+    var fd     = d.querySelector('.fd');
+
+    d.addEventListener('click', function (e) {
+      if (!e.target.closest('button')) input.click();
+    });
+    d.querySelector('.cp').addEventListener('click', function (e) { e.stopPropagation(); cropOpen(i); });
+    d.querySelector('.ch').addEventListener('click', function (e) { e.stopPropagation(); input.click(); });
+    d.querySelector('.rm').addEventListener('click', function (e) { e.stopPropagation(); clearSlot(i); });
+
+    input.addEventListener('change', function () {
+      if (input.files[0]) loadFile(i, input.files[0]);
+      input.value = '';
+    });
+
+    d.addEventListener('dragover', function (e) { e.preventDefault(); d.classList.add('drag'); });
+    d.addEventListener('dragleave', function () { d.classList.remove('drag'); });
+    d.addEventListener('drop', function (e) {
+      e.preventDefault(); d.classList.remove('drag');
+      var f = e.dataTransfer.files && e.dataTransfer.files[0];
+      if (f) loadFile(i, f);
+    });
+
+    s.ui = { slot: d, empty: empty, filled: filled, thumb: thumb, fname: fname };
+    SLOTS.push(s);
+    return true;
+  }
+
+  function natW(im) { return im.naturalWidth || im.width; }
+  function natH(im) { return im.naturalHeight || im.height; }
+  function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+
+  function updateSlotUI(i) {
+    var s = SLOTS[i], ui = s.ui;
+    if (s.img) {
+      ui.empty.hidden = true;
+      ui.filled.hidden = false;
+      renderThumb(i);
+    } else {
+      ui.filled.hidden = true;
+      ui.empty.hidden = false;
+    }
+  }
+
+  // Slot ka thumbnail = cropped region ka chhota preview
+  function renderThumb(i) {
+    var s = SLOTS[i];
+    if (!s.img) return;
+    var sx = s.crop ? s.crop.x : 0, sy = s.crop ? s.crop.y : 0;
+    var sw = s.crop ? s.crop.w : natW(s.img);
+    var sh = s.crop ? s.crop.h : natH(s.img);
+    var sc = Math.min(1, 300 / Math.max(sw, sh));
+    var t = document.createElement('canvas');
+    t.width = Math.max(1, Math.round(sw * sc));
+    t.height = Math.max(1, Math.round(sh * sc));
+    t.getContext('2d').drawImage(s.img, sx, sy, sw, sh, 0, 0, t.width, t.height);
+    s.ui.thumb.src = t.toDataURL('image/png');
+    s.ui.fname.textContent = s.fname;
+    s.ui.fd.textContent = sw + '×' + sh + (s.crop ? ' ✂' : '');
+  }
+
+  function loadFile(i, file) {
+    if (!file.type || file.type.indexOf('image/') !== 0) {
+      alert('Sirf photo/image file chalegi! (JPG, PNG, WebP, GIF...)');
+      return;
+    }
+    var url = URL.createObjectURL(file);
+    var img = new Image();
+    img.onload = function () {
+      if (SLOTS[i].url) URL.revokeObjectURL(SLOTS[i].url);
+      SLOTS[i].img = img;
+      SLOTS[i].url = url;
+      SLOTS[i].fname = file.name;
+      SLOTS[i].crop = null;
+      updateSlotUI(i);
+      // Agar last slot fill hua to naya khali slot auto-add (max tak)
+      if (i === SLOTS.length - 1 && SLOTS.length < MAX_SLOTS) addSlot();
+      render();
+    };
+    img.onerror = function () {
+      URL.revokeObjectURL(url);
+      alert('Ye image load nahi ho payi. Dobara try karo.');
+    };
+    img.src = url;
+  }
+
+  function clearSlot(i) {
+    var s = SLOTS[i];
+    if (s.url) URL.revokeObjectURL(s.url);
+    s.img = null; s.url = null; s.fname = ''; s.crop = null;
+    updateSlotUI(i);
+    render();
+  }
+
+  // Shuru me 2 slot + 1 khali (total 3)
+  addSlot(); addSlot(); addSlot();
+
+  /* ---------- Controls ---------- */
+  var gapEl = $('gap'), padEl = $('pad'), bgEl = $('bg');
+  var equalEl = $('equal'), transparentEl = $('transparent'), qEl = $('q');
+  var wmOnEl = $('wmOn'), wmTextEl = $('wmText'), wmRowEl = $('wmRow');
+
+  function gap() { return +gapEl.value; }
+  function pad() { return +padEl.value; }
+  function layoutMode() {
+    return document.querySelector('input[name="layout"]:checked').value; // h | v | g
+  }
+  function fmt() {
+    return document.querySelector('input[name="fmt"]:checked').value;
+  }
+
+  [gapEl, padEl, bgEl, equalEl, transparentEl, qEl, wmTextEl].forEach(function (el) {
+    el.addEventListener('input', updateLabels);
+    el.addEventListener('change', render);
+  });
+  wmOnEl.addEventListener('change', function () {
+    wmRowEl.hidden = !wmOnEl.checked;
+    render();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="wmpos"]'), function (el) {
+    el.addEventListener('change', render);
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="layout"], input[name="fmt"]'), function (el) {
+    el.addEventListener('change', render);
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.sw'), function (b) {
+    b.addEventListener('click', function () { bgEl.value = b.getAttribute('data-bg'); render(); });
+  });
+
+  function updateLabels() {
+    $('gapVal').textContent = gap() + ' px';
+    $('padVal').textContent = pad() + ' px';
+    $('qVal').textContent = qEl.value + '%';
+  }
+  updateLabels();
+
+  $('swapBtn').addEventListener('click', function () {
+    if (SLOTS.length < 2) return;
+    var t = SLOTS[0]; SLOTS[0] = SLOTS[1]; SLOTS[1] = t;
+    updateSlotUI(0); updateSlotUI(1); render();
+  });
+
+  addBtn.addEventListener('click', function () {
+    if (addSlot()) {
+      // naya khali slot par scroll + uska file picker khol do
+      var last = SLOTS[SLOTS.length - 1];
+      last.ui.slot.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
+
+  $('clearAll').addEventListener('click', function () {
+    SLOTS.forEach(function (s, i) { clearSlot(i); });
+  });
+
+  /* ---------- Business banner (apna ad) ---------- */
+  var promoOnEl = $('promoOn'), promoRowEl = $('promoRow'),
+      promoTextEl = $('promoText'), promoPhoneEl = $('promoPhone'),
+      promoEl = $('promo'), promoTxtEl = $('promoTxt'),
+      promoLinkEl = $('promoLink'), promoXEl = $('promoX');
+  var PMKEY = 'pjp_promo_v1';
+
+  try {
+    var savedPromo = JSON.parse(localStorage.getItem(PMKEY) || 'null');
+    if (savedPromo) {
+      promoOnEl.checked = !!savedPromo.on;
+      promoTextEl.value = savedPromo.text || '';
+      promoPhoneEl.value = savedPromo.phone || '';
+    }
+  } catch (e) {}
+
+  promoXEl.addEventListener('click', function () { promoEl.classList.remove('on'); });
+
+  function applyPromo() {
+    var on = promoOnEl.checked;
+    var t = promoTextEl.value.trim();
+    var ph = promoPhoneEl.value.replace(/\D/g, '');
+    promoRowEl.hidden = !on;
+    if (on && t) {
+      promoEl.classList.add('on');
+      promoTxtEl.innerHTML = t.replace(/</g, '&lt;');
+      if (ph) {
+        promoLinkEl.href = 'https://wa.me/' + ph +
+          '?text=' + encodeURIComponent('Namaste! Mujhe photo collage chahiye 📸');
+        promoLinkEl.style.display = '';
+      } else {
+        promoLinkEl.style.display = 'none';
+      }
+    } else {
+      promoEl.classList.remove('on');
+    }
+    try { localStorage.setItem(PMKEY, JSON.stringify({ on: on, text: t, phone: ph })); } catch (e) {}
+  }
+  promoOnEl.addEventListener('change', applyPromo);
+  promoTextEl.addEventListener('input', applyPromo);
+  promoPhoneEl.addEventListener('input', applyPromo);
+  applyPromo();
+
+  // Browser ko rok do ki drag-drop par file khul na jaye
+  ['dragover', 'drop'].forEach(function (ev) {
+    document.addEventListener(ev, function (e) { e.preventDefault(); });
+  });
+
+  /* ---------- Canvas render (N photos) ---------- */
+  function sum(arr) { return arr.reduce(function (a, b) { return a + b; }, 0); }
+  function maxOf(arr) { return arr.reduce(function (a, b) { return Math.max(a, b); }, 0); }
+
+  function render() {
+    var items = [];
+    SLOTS.forEach(function (s, i) {
+      if (!s.img) return;
+      var sx = s.crop ? s.crop.x : 0, sy = s.crop ? s.crop.y : 0;
+      var sw = s.crop ? s.crop.w : natW(s.img);
+      var sh = s.crop ? s.crop.h : natH(s.img);
+      items.push({ im: s.img, sx: sx, sy: sy, sw: sw, sh: sh, label: 'Photo ' + (i + 1), w: sw, h: sh, ow: sw, oh: sh });
+    });
+
+    if (items.length === 0) {
+      canvas.hidden = true;
+      noImg.hidden = false;
+      outInfo.textContent = '';
+      downloadBtn.disabled = true;
+      return;
+    }
+
+    var n = items.length;
+    var mode = layoutMode();           // h | v | g
+    var eq = equalEl.checked;
+    var g = gap(), p = pad();
+
+    // Equal size: sabse badi dimension ko 1:1 rakhte hue baaki ko match karo
+    if (eq && mode !== 'v') {          // row/grid → sab same height
+      var H0 = maxOf(items.map(function (it) { return it.h; }));
+      items.forEach(function (it) { it.w = Math.round(it.w * H0 / it.h); it.h = H0; });
+    }
+    if (eq && mode === 'v') {          // column → sab same width
+      var W0 = maxOf(items.map(function (it) { return it.w; }));
+      items.forEach(function (it) { it.h = Math.round(it.h * W0 / it.w); it.w = W0; });
+    }
+
+    // Grid arrangement
+    var cols = 0, rows = 0, colW = [], rowH = [];
+    if (mode === 'g') {
+      cols = (n === 1) ? 1 : (n <= 4 ? 2 : 3);
+      rows = Math.ceil(n / cols);
+      for (var r = 0; r < rows; r++) rowH.push(0);
+      for (var c = 0; c < cols; c++) colW.push(0);
+      items.forEach(function (it, i) {
+        var rr = Math.floor(i / cols), cc = i % cols;
+        it.row = rr; it.col = cc;
+        rowH[rr] = Math.max(rowH[rr], it.h);
+        colW[cc] = Math.max(colW[cc], it.w);
+      });
+    }
+
+    // Total size
+    var W, H;
+    if (mode === 'h') {
+      W = sum(items.map(function (it) { return it.w; })) + g * (n - 1);
+      H = maxOf(items.map(function (it) { return it.h; }));
+    } else if (mode === 'v') {
+      H = sum(items.map(function (it) { return it.h; })) + g * (n - 1);
+      W = maxOf(items.map(function (it) { return it.w; }));
+    } else {
+      W = sum(colW) + g * (cols - 1);
+      H = sum(rowH) + g * (rows - 1);
+    }
+    W += 2 * p; H += 2 * p;
+
+    // Bahut bade output se bachne ke liye scale-down (high-quality limit)
+    var MAX_SIDE = 16384, MAX_AREA = 80e6;
+    var f = Math.min(1, MAX_SIDE / W, MAX_SIDE / H, Math.sqrt(MAX_AREA / (W * H)));
+    if (f < 1) {
+      items.forEach(function (it) {
+        it.w = Math.max(1, Math.round(it.w * f));
+        it.h = Math.max(1, Math.round(it.h * f));
+      });
+      g = Math.round(g * f); p = Math.round(p * f);
+      colW = colW.map(function (x) { return Math.max(1, Math.round(x * f)); });
+      rowH = rowH.map(function (x) { return Math.max(1, Math.round(x * f)); });
+      if (mode === 'h') {
+        W = sum(items.map(function (it) { return it.w; })) + g * (n - 1) + 2 * p;
+        H = maxOf(items.map(function (it) { return it.h; })) + 2 * p;
+      } else if (mode === 'v') {
+        H = sum(items.map(function (it) { return it.h; })) + g * (n - 1) + 2 * p;
+        W = maxOf(items.map(function (it) { return it.w; })) + 2 * p;
+      } else {
+        W = sum(colW) + g * (cols - 1) + 2 * p;
+        H = sum(rowH) + g * (rows - 1) + 2 * p;
+      }
+    }
+    W = Math.max(1, Math.round(W)); H = Math.max(1, Math.round(H));
+
+    // Positions
+    if (mode === 'h') {
+      var x = p;
+      items.forEach(function (it) {
+        it.x = x; it.y = p + (H - 2 * p - it.h) / 2;
+        x += it.w + g;
+      });
+    } else if (mode === 'v') {
+      var y = p;
+      items.forEach(function (it) {
+        it.y = y; it.x = p + (W - 2 * p - it.w) / 2;
+        y += it.h + g;
+      });
+    } else {
+      var colX = [p], rowY = [p];
+      for (var c2 = 1; c2 < cols; c2++) colX.push(colX[c2 - 1] + colW[c2 - 1] + g);
+      for (var r2 = 1; r2 < rows; r2++) rowY.push(rowY[r2 - 1] + rowH[r2 - 1] + g);
+      items.forEach(function (it) {
+        it.x = colX[it.col] + (colW[it.col] - it.w) / 2;
+        it.y = rowY[it.row] + (rowH[it.row] - it.h) / 2;
+      });
+    }
+
+    // Draw
+    canvas.width = W; canvas.height = H;
+    canvas.hidden = false;
+    noImg.hidden = true;
+
+    var wantTransparent = transparentEl.checked && fmt() === 'png';
+    if (!wantTransparent) {
+      ctx.fillStyle = bgEl.value;
+      ctx.fillRect(0, 0, W, H);
+    } else {
+      ctx.clearRect(0, 0, W, H);
+    }
+
+    ctx.imageSmoothingQuality = 'high';
+    items.forEach(function (it) {
+      ctx.drawImage(it.im, it.sx, it.sy, it.sw, it.sh, Math.round(it.x), Math.round(it.y), it.w, it.h);
+    });
+
+    // Watermark (service/branding ke liye)
+    var wmText = wmTextEl.value.trim();
+    if (wmOnEl.checked && wmText) {
+      var pos = document.querySelector('input[name="wmpos"]:checked').value;
+      var wsize = (pos === 'center')
+        ? Math.max(28, Math.round(Math.min(W, H) * 0.12))
+        : Math.max(16, Math.round(H * 0.03));
+      ctx.save();
+      ctx.font = 'bold ' + wsize + 'px system-ui, sans-serif';
+      var twm = ctx.measureText(wmText).width;
+      if (twm > W - 2 * p) {
+        wsize = Math.max(10, wsize * (W - 2 * p) / twm);
+        ctx.font = 'bold ' + wsize + 'px system-ui, sans-serif';
+        twm = ctx.measureText(wmText).width;
+      }
+      ctx.shadowColor = 'rgba(0,0,0,.45)';
+      ctx.shadowBlur = wsize * 0.15;
+      ctx.fillStyle = 'rgba(255,255,255,.72)';
+      if (pos === 'center') {
+        ctx.fillText(wmText, (W - twm) / 2, H / 2 + wsize * 0.35);
+      } else if (pos === 'br') {
+        ctx.fillText(wmText, W - p - twm - wsize * 0.5, H - p - wsize * 0.5);
+      } else {
+        ctx.fillText(wmText, p + wsize * 0.5, H - p - wsize * 0.5);
+      }
+      ctx.restore();
+    }
+
+    // Quality report
+    var modeName = mode === 'h' ? 'Side by Side' : (mode === 'v' ? 'Upar–Neeche' : ('Grid ' + cols + '×' + rows));
+    var lines = ['Output: ' + W + ' × ' + H + ' px • ' + n +
+      (n > 1 ? ' photos' : ' photo') + ' • ' + modeName +
+      (wantTransparent ? ' • transparent' : '')];
+
+    function pixLine(it) {
+      if (it.w === it.ow && it.h === it.oh) {
+        return '✓ ' + it.label + ': 1:1 original pixels — ZERO quality loss';
+      }
+      var pct = Math.round(it.w / it.ow * 100);
+      return (pct > 100 ? '⬆ ' : '⚠ ') + it.label + ': ' +
+        it.ow + '×' + it.oh + ' → ' + it.w + '×' + it.h + ' (' + pct + '%)';
+    }
+    items.forEach(function (it) { lines.push(pixLine(it)); });
+    if (f < 1) lines.push('⚠ Output bahut bada tha — ' + Math.round(f * 100) + '% scale kiya gaya (limit paas)');
+
+    outInfo.textContent = lines.join('\n');
+    downloadBtn.disabled = false;
+  }
+
+  /* ---------- Crop editor ---------- */
+  var cropOv = $('cropOv'), cImg = $('cImg'),
+      cBox = $('cBox'), cDims = $('cDims'), cctx = cImg.getContext('2d');
+
+  var cw = { i: -1, img: null, k: 1, dw: 0, dh: 0,
+             x: 0, y: 0, w: 0, h: 0, ratio: null,
+             mode: null, sx0: 0, sy0: 0, bx0: 0, by0: 0, bw0: 0, bh0: 0 };
+
+  function initCropView() {
+    var nw0 = natW(cw.img), nh0 = natH(cw.img);
+    var maxW = Math.min(820, window.innerWidth - 70);
+    var maxH = Math.max(220, Math.round(window.innerHeight * 0.52));
+    cw.k = Math.min(maxW / nw0, maxH / nh0, 1.5);
+    cw.dw = Math.max(1, Math.round(nw0 * cw.k));
+    cw.dh = Math.max(1, Math.round(nh0 * cw.k));
+    cImg.width = cw.dw; cImg.height = cw.dh;
+    cImg.style.width = cw.dw + 'px';
+    cImg.style.height = cw.dh + 'px';
+    cctx.imageSmoothingQuality = 'high';
+    cctx.drawImage(cw.img, 0, 0, cw.dw, cw.dh);
+    cw.w = cw.dw * 0.8; cw.h = cw.dh * 0.8;
+    cw.x = (cw.dw - cw.w) / 2;
+    cw.y = (cw.dh - cw.h) / 2;
+    drawBox();
+  }
+
+  function cropOpen(i) {
+    var s = SLOTS[i];
+    if (!s || !s.img) return;
+    cw.i = i; cw.img = s.img; cw.ratio = null;
+    setRActive('');
+    // Purana crop ho to wahi box shuru me dikha do
+    var hadCrop = s.crop;
+    initCropView();
+    if (hadCrop) {
+      cw.x = hadCrop.x * cw.k; cw.y = hadCrop.y * cw.k;
+      cw.w = hadCrop.w * cw.k; cw.h = hadCrop.h * cw.k;
+      drawBox();
+    }
+    cropOv.hidden = false;
+  }
+
+  function drawBox() {
+    cBox.style.left = cw.x + 'px';
+    cBox.style.top = cw.y + 'px';
+    cBox.style.width = cw.w + 'px';
+    cBox.style.height = cw.h + 'px';
+    cDims.textContent = Math.max(1, Math.round(cw.w / cw.k)) + ' × ' +
+                        Math.max(1, Math.round(cw.h / cw.k)) + ' px';
+  }
+
+  function parseR(v) { var p = v.split('/'); return (+p[0]) / (+p[1]); }
+
+  function setRActive(val) {
+    Array.prototype.forEach.call(document.querySelectorAll('.rbtn'), function (b) {
+      b.classList.toggle('active', b.getAttribute('data-r') === val);
+    });
+  }
+
+  function setRatio(val) {
+    cw.ratio = val ? parseR(val) : null;
+    setRActive(val);
+    if (cw.ratio) {
+      var r = cw.ratio;
+      var cxm = cw.x + cw.w / 2, cym = cw.y + cw.h / 2;
+      var w = Math.min(cw.dw, cw.dh * r);
+      var h = w / r;
+      cw.w = w; cw.h = h;
+      cw.x = clamp(cxm - w / 2, 0, cw.dw - w);
+      cw.y = clamp(cym - h / 2, 0, cw.dh - h);
+      drawBox();
+    }
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('.rbtn'), function (b) {
+    b.addEventListener('click', function () { setRatio(b.getAttribute('data-r')); });
+  });
+
+  function bakeRotate(deg) {
+    var im = cw.img, w = natW(im), h = natH(im);
+    var c = document.createElement('canvas');
+    c.width = h; c.height = w;
+    var cc = c.getContext('2d');
+    cc.translate(c.width / 2, c.height / 2);
+    cc.rotate(deg * Math.PI / 180);
+    cc.drawImage(im, -w / 2, -h / 2);
+    cw.img = c;
+    cw.ratio = null;
+    setRActive('');
+    initCropView();
+  }
+  $('rotL').addEventListener('click', function () { bakeRotate(-90); });
+  $('rotR').addEventListener('click', function () { bakeRotate(90); });
+
+  $('cropReset').addEventListener('click', function () {
+    cw.ratio = null; setRActive('');
+    cw.w = cw.dw; cw.h = cw.dh; cw.x = 0; cw.y = 0;
+    drawBox();
+  });
+  $('cropCancel').addEventListener('click', function () { cropOv.hidden = true; });
+  $('cropApply').addEventListener('click', function () {
+    var s = SLOTS[cw.i];
+    if (!s) return;
+    s.img = cw.img;
+    var NW = natW(s.img), NH = natH(s.img);
+    var nx = clamp(Math.round(cw.x / cw.k), 0, NW - 1);
+    var ny = clamp(Math.round(cw.y / cw.k), 0, NH - 1);
+    var nw2 = clamp(Math.round(cw.w / cw.k), 1, NW - nx);
+    var nh2 = clamp(Math.round(cw.h / cw.k), 1, NH - ny);
+    s.crop = (nw2 === NW && nh2 === NH && nx === 0 && ny === 0) ? null : { x: nx, y: ny, w: nw2, h: nh2 };
+    cropOv.hidden = true;
+    updateSlotUI(cw.i);
+    render();
+  });
+
+  /* --- drag & resize (mouse + touch, pointer events) --- */
+  function pd(e, mode) {
+    e.preventDefault(); e.stopPropagation();
+    cw.mode = mode;
+    cw.sx0 = e.clientX; cw.sy0 = e.clientY;
+    cw.bx0 = cw.x; cw.by0 = cw.y; cw.bw0 = cw.w; cw.bh0 = cw.h;
+  }
+  function pm(e) {
+    if (!cw.mode) return;
+    var dx = e.clientX - cw.sx0, dy = e.clientY - cw.sy0;
+    applyDrag(dx, dy);
+  }
+  function pu() { cw.mode = null; }
+
+  function applyDrag(dx, dy) {
+    var r = cw.ratio, m = cw.mode, MIN = 24;
+    var dw = cw.dw, dh = cw.dh;
+    var bx = cw.bx0, by = cw.by0, bw = cw.bw0, bh = cw.bh0;
+
+    if (m === 'move') {
+      cw.x = clamp(bx + dx, 0, dw - bw);
+      cw.y = clamp(by + dy, 0, dh - bh);
+    } else if (m === 'se') {
+      var w = clamp(bw + dx, MIN, dw - bx);
+      var h = clamp(bh + dy, MIN, dh - by);
+      if (r) { h = w / r; if (by + h > dh) { h = dh - by; w = h * r; } if (w > dw - bx) { w = dw - bx; h = w / r; } }
+      cw.w = w; cw.h = h;
+    } else if (m === 'sw') {
+      var x2 = bx + bw, y2b = by + bh;
+      var nx = clamp(bx + dx, 0, x2 - MIN);
+      var w2 = x2 - nx;
+      var h2 = clamp(bh + dy, MIN, dh - by);
+      if (r) { w2 = h2 * r; if (w2 > x2) { w2 = x2; h2 = w2 / r; } }
+      cw.x = x2 - w2; cw.w = w2; cw.h = h2;
+    } else if (m === 'ne') {
+      var y2c = by + bh;
+      var w3 = clamp(bw + dx, MIN, dw - bx);
+      var h3 = clamp(y2c - (by + dy), MIN, y2c);
+      if (r) { h3 = w3 / r; if (h3 > y2c) { h3 = y2c; w3 = h3 * r; } if (w3 > dw - bx) { w3 = dw - bx; h3 = w3 / r; } }
+      cw.w = w3; cw.y = y2c - h3; cw.h = h3;
+    } else if (m === 'nw') {
+      var x2d = bx + bw, y2d = by + bh;
+      var nx2 = clamp(bx + dx, 0, x2d - MIN);
+      var ny2 = clamp(by + dy, 0, y2d - MIN);
+      var w4 = x2d - nx2, h4 = y2d - ny2;
+      if (r) { h4 = w4 / r; if (h4 > y2d) { h4 = y2d; w4 = h4 * r; } if (w4 > x2d) { w4 = x2d; h4 = w4 / r; } }
+      cw.x = x2d - w4; cw.y = y2d - h4; cw.w = w4; cw.h = h4;
+    } else if (m === 'n') {
+      var y2e = by + bh;
+      var ny3 = clamp(by + dy, 0, y2e - MIN);
+      var h5 = y2e - ny3;
+      if (r) {
+        var w5 = Math.min(h5 * r, dw);
+        cw.w = w5; cw.x = clamp(bx + bw / 2 - w5 / 2, 0, dw - w5);
+        h5 = w5 / r;
+      }
+      cw.y = y2e - h5; cw.h = h5;
+    } else if (m === 's') {
+      var h6 = clamp(bh + dy, MIN, dh - by);
+      if (r) {
+        var w6 = Math.min(h6 * r, dw);
+        cw.w = w6; cw.x = clamp(bx + bw / 2 - w6 / 2, 0, dw - w6);
+        h6 = w6 / r;
+      }
+      cw.h = h6;
+    } else if (m === 'w') {
+      var x2f = bx + bw;
+      var nx3 = clamp(bx + dx, 0, x2f - MIN);
+      var w7 = x2f - nx3;
+      if (r) {
+        var h7 = Math.min(w7 / r, dh);
+        cw.h = h7; cw.y = clamp(by + bh / 2 - h7 / 2, 0, dh - h7);
+        w7 = h7 * r;
+      }
+      cw.x = x2f - w7; cw.w = w7;
+    } else if (m === 'e') {
+      var w8 = clamp(bw + dx, MIN, dw - bx);
+      if (r) {
+        var h8 = Math.min(w8 / r, dh);
+        cw.h = h8; cw.y = clamp(by + bh / 2 - h8 / 2, 0, dh - h8);
+        w8 = h8 * r;
+      }
+      cw.w = w8;
+    }
+    drawBox();
+  }
+
+  cBox.addEventListener('pointerdown', function (e) {
+    if (e.target === cBox) pd(e, 'move');
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.hd'), function (h) {
+    h.addEventListener('pointerdown', function (e) { pd(e, h.getAttribute('data-h')); });
+  });
+  window.addEventListener('pointermove', pm);
+  window.addEventListener('pointerup', pu);
+  window.addEventListener('pointercancel', pu);
+
+  /* ---------- Download ---------- */
+  var dlHelp = $('dlHelp'), dlImg = $('dlImg');
+  var lastURL = null;
+
+  // Kya ye file kisi iframe/preview ke andar chal rahi hai?
+  var isEmbedded = (function () {
+    try { return window.self !== window.top; } catch (e) { return true; }
+  })();
+
+  function doDownload() {
+    if (downloadBtn.disabled) return;
+    var format = fmt();
+    var mime = format === 'jpg' ? 'image/jpeg' : 'image/png';
+    var quality = format === 'jpg' ? Math.min(1, +qEl.value / 100) : undefined;
+    canvas.toBlob(function (blob) {
+      if (!blob) { alert('Image banane me problem aayi. Dobara try karo.'); return; }
+      if (lastURL) URL.revokeObjectURL(lastURL);
+      lastURL = URL.createObjectURL(blob);
+
+      var a = document.createElement('a');
+      a.href = lastURL;
+      a.download = 'side-by-side.' + format;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      // Preview/iframe ke andar download aksar block hota hai — help popup dikha do
+      if (isEmbedded) {
+        dlImg.src = lastURL;
+        dlHelp.hidden = false;
+      }
+    }, mime, quality);
+  }
+
+  downloadBtn.addEventListener('click', doDownload);
+
+  $('dlRetry').addEventListener('click', doDownload);
+  $('dlClose').addEventListener('click', function () { dlHelp.hidden = true; });
+  $('dlTab').addEventListener('click', function () {
+    if (!lastURL) return;
+    var w = null;
+    try { w = window.open(lastURL, '_blank'); } catch (e) { w = null; }
+    if (!w) {
+      alert('Browser ne naya tab block kar diya (preview security).\n\nPakka solution: side-by-side-photo.html file ko device par save karke seedha browser me kholo — wahan sab kaam karega.');
+    }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Privacy Policy — PhotoJod</title>
+<meta name="description" content="PhotoJod privacy policy: aapki photos aur data kaise safe hai. Hum kuch bhi collect nahi karte.">
+<link rel="icon" type="image/png" href="icon-192.png">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#0b0e1a; --panel:rgba(255,255,255,.045); --border:rgba(255,255,255,.10);
+    --text:#e8eaf6; --muted:#9aa0b8;
+  }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+    background:
+      radial-gradient(1000px 500px at 75% -10%, rgba(124,58,237,.22), transparent 60%),
+      var(--bg);
+    color: var(--text); min-height: 100vh; padding: 30px 18px 60px; line-height: 1.75;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 18px; padding: 32px 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  }
+  h1 {
+    font-size: clamp(24px, 4vw, 32px); margin-bottom: 6px;
+    background: linear-gradient(90deg, #a5b4fc, #f0abfc);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h2 { font-size: 19px; margin: 26px 0 10px; color: #c4b5fd; }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  p, li { color: #c7cbe4; font-size: 15px; margin-bottom: 10px; }
+  ul, ol { padding-left: 24px; margin-bottom: 12px; }
+  b { color: var(--text); }
+  .badge {
+    display: inline-block; padding: 5px 14px; border-radius: 999px; margin-bottom: 16px;
+    background: rgba(34,197,94,.12); border: 1px solid rgba(34,197,94,.35);
+    color: #86efac; font-size: 12.5px; font-weight: 600;
+  }
+  .btn {
+    display: inline-block; margin: 18px 0; padding: 12px 26px; border-radius: 12px;
+    font-weight: 800; font-size: 15px; text-decoration: none; color: #fff !important;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    box-shadow: 0 10px 30px rgba(139,92,246,.45);
+  }
+  .btn:hover { filter: brightness(1.12); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  td, th { border: 1px solid var(--border); padding: 9px 12px; font-size: 14px; color: #c7cbe4; text-align: left; }
+  th { color: #c4b5fd; }
+  nav { text-align: center; margin-top: 22px; font-size: 14px; }
+  nav a { color: #a5b4fc; text-decoration: none; margin: 0 8px; }
+  nav a:hover { text-decoration: underline; }
+  .update { color: var(--muted); font-size: 13px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="panel">
+    
+<span class="badge">🔐 Aapki privacy</span>
+<h1>Privacy Policy</h1>
+<p><b>Last updated:</b> September 2026</p>
+<p>PhotoJod ("hum", "hamara") aapki privacy ka pura samman karta hai. Ye policy batati hai ki jab aap hamari website use karte ho to kya hota hai (aur kya NAHI hota).</p>
+
+<h2>1. Photos ka sabse important baat</h2>
+<p><b>Aapki photos hamare paas KABHI nahi aati.</b> PhotoJod 100% browser-based hai:</p>
+<ul>
+  <li>Aap jab photo choose karte ho, wo sirf aapke device ki memory (browser) me load hoti hai</li>
+  <li>Collage banana, crop karna — sab processing aapke apne device par hoti hai</li>
+  <li>Koi photo kisi server par upload nahi hoti, koi cloud par save nahi hoti</li>
+  <li>Page band karte hi photos aapke device se automatically hat jati hain</li>
+</ul>
+
+<h2>2. Hum kya collect karte hain</h2>
+<p><b>Photos:</b> Kuch nahi (upar dekho)</p>
+<p><b>Personal information:</b> Hum aapse koi naam, email, phone number nahi maangte. Na koi account banana padta hai, na login hota hai.</p>
+<p><b>Browser storage (localStorage):</b> Tool aapki kuch settings aapke apne browser me save karta hai (jaise banner settings, last JPG quality). Ye data <b>aapke device par hi</b> rehta hai — humein kabhi nahi milta, aur aap browser settings se kabhi bhi clear kar sakte ho.</p>
+
+<h2>3. Cookies aur Third-Party Services</h2>
+<p>PhotoJod khud koi tracking cookie use nahi karta. Par:</p>
+<ul>
+  <li><b>Hosting provider:</b> Website host karne wali company (jaise Netlify/Cloudflare) basic technical logs rakh sakti hai (jaise visit counts) — ye unki standard policy ke hisaab se hai</li>
+  <li><b>Future Advertising:</b> Agar future me hum website par ads (jaise Google AdSense) lagate hain, to third-party ad partners cookies use kar sakte hain aapko relevant ads dikhane ke liye. Us waqt hum ye policy update karenge aur aap Google ke Ads Settings se personalized ads control kar sakte honge.</li>
+</ul>
+
+<h2>4. Children's Privacy</h2>
+<p>PhotoJod kisi bhi umar ke log use kar sakte hain. Hum jaan-boojh kar koi children-specific data collect nahi karte, kyunki kuch bhi collect hi nahi hota.</p>
+
+<h2>5. Data Security</h2>
+<p>Kyunki aapka data (photos) hamare paas aata hi nahi, isliye data leak ka koi sawaal hi nahi. Ye hi PhotoJod ka sabse bada security feature hai — <b>jo paas nahi hai wo leak nahi ho sakta.</b></p>
+
+<h2>6. Aapke Adhikar</h2>
+<p>Chunki hum aapka koi personal data rakhte hi nahi, isliye data delete/correct/export ka request karne ka koi sawaal nahi. Browser localStorage ki settings aap khud kabhi bhi clear kar sakte ho.</p>
+
+<h2>7. Policy Updates</h2>
+<p>Agar policy me koi badlav hoga, to is page par updated date ke sath publish karenge.</p>
+
+<h2>8. Contact</h2>
+<p>Privacy ke baare me koi sawaal? <a href="contact.html" style="color:#a5b4fc">Contact page</a> par message karo.</p>
+
+    <nav>
+      <a href="index.html">🏠 Home</a> · <a href="about.html">About</a> ·
+      <a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy Policy</a> ·
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+</body>
+</html>
